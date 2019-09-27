@@ -5,6 +5,7 @@ import Cover from '../components/cover';
 import SidePhoto1 from '../components/sidePhoto1';
 import SidePhoto2 from '../components/sidePhoto2';
 import RunningPhoto from '../components/runningPhoto'
+import Video from '../components/video'
 import mainStyles from './main.module.scss';
 import LogoWeekend from '../components/logo_weekend'
 
@@ -106,7 +107,13 @@ const IndexPage = () => (
     <section id="camps" className={mainStyles.campSection}>
       <div className={mainStyles.campContainer}>
         <h2>NOS SEJOURS</h2>
-        <div className={mainStyles.runningPhoto}><RunningPhoto /></div>
+        {/* <div className={mainStyles.runningPhoto}><RunningPhoto /></div> */}
+        <div className={mainStyles.runningPhoto}>
+          <Video 
+            videoSrcURL="https://www.youtube.com/embed/vHT7RKmIUuw"
+            videoTitle="POP Éducation"
+          />
+        </div>
         <h4>Vous êtes élu du CSE ?</h4>
         <p>Vous souhaitez organiser un séjour de vacances pour les enfants des salariés de l’entreprise ?</p>
         <h4>Vous travaillez dans une collectivité ?</h4>
