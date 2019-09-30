@@ -9,7 +9,7 @@ const BackgroundSection = ({ className }) => (
       query {
         desktop: file(relativePath: { eq: "sidePhoto1.png" }) {
           childImageSharp {
-            fluid(quality: 90, maxWidth: 300) {
+            fluid(quality: 90, maxWidth: 400) {
               ...GatsbyImageSharpFluid_withWebp
             }
           }

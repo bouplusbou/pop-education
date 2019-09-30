@@ -4,7 +4,8 @@ import SEO from "../components/seo"
 import Cover from '../components/cover';
 import SidePhoto1 from '../components/sidePhoto1';
 import SidePhoto2 from '../components/sidePhoto2';
-import RunningPhoto from '../components/runningPhoto'
+import ImgLeoniePlant from '../components/leonie_plant';
+import ImgLeonieCat from '../components/leonie_cat';
 import Video from '../components/video'
 import mainStyles from './main.module.scss';
 import LogoWeekend from '../components/logo_weekend'
@@ -42,7 +43,10 @@ const IndexPage = () => (
     </section> 
     <section id="weekends" className={mainStyles.weekendPresentationSection}>
       <div className={mainStyles.weekendPresentationInfo}>
-        <div className={mainStyles.logoWeekend}><LogoWeekend /></div>
+        <div className={mainStyles.logoWeekend}>
+          <LogoWeekend />
+          <p className={mainStyles.weekendTitle}>Week-end chez la tante Léonie</p>
+        </div>
         <p className={mainStyles.weekendPresentationText}>Que ce soit pour un trip en amoureux, ou « boulot boulot », vous avez parfois besoin de confier vos trésors à quelqu’un de confiance pour le week-end. Mais lorsque les grand-parents ne sont pas disponibles, comment faire ?</p>
         <p style={{ color: '#759F42', fontWeight: 700 }} className={mainStyles.weekendPresentationText}>Et si vous appeliez POP ?</p>
         <div className={mainStyles.weekendPresentationColumns}>
@@ -60,6 +64,9 @@ const IndexPage = () => (
               <li>- découvriront des activités ludiques et authentiques de notre patrimoine artisanal</li>
               <li>- dégusteront des produits locaux</li>
             </ul>
+            <div style={{textAlign: 'center'}}>
+              <ImgLeonieCat />
+            </div>
           </div>
           <div>
             <p>Léonie, c’est la vieille tante toute douce qui sommeille dans le cœur de chaque famille : celle qui a un chat, qui fait des confitures, et qui possède un grenier plein de trésors. Un week-end chez la tante Léonie, c’est la promesse des week-end à la campagne de notre enfance, à jouer dehors, bâtir des mondes imaginaires et savourer de bons produits frais entouré d’enfants de son âge.</p>
@@ -83,6 +90,9 @@ const IndexPage = () => (
           <div>
             <p>Les inscriptions se font auprès de POP. Vous aurez à remplir un bulletin d’inscription et la fiche sanitaire.</p>
             <p>Deux semaines avant le départ : Nous vous envoyons par mail la convocation de départ ainsi qu’une lettre de la Tante Léonie qui vous décrira les activités et comment faire la valise de votre enfant.</p>
+            <div style={{textAlign: 'center'}}>
+              <ImgLeoniePlant />                        
+            </div>
             <div className={mainStyles.box}>
               <p>Des lieux de départ en région parisienne et dans le Nord.</p>
               <p style={{ marginTop: '20px'}}>Prix du Week-end (forfait tout compris) : 290 € TTC par enfant</p>
@@ -107,8 +117,7 @@ const IndexPage = () => (
     <section id="camps" className={mainStyles.campSection}>
       <div className={mainStyles.campContainer}>
         <h2>NOS SEJOURS</h2>
-        {/* <div className={mainStyles.runningPhoto}><RunningPhoto /></div> */}
-        <div className={mainStyles.runningPhoto}>
+        <div className={mainStyles.video}>
           <Video 
             videoSrcURL="https://www.youtube.com/embed/vHT7RKmIUuw"
             videoTitle="POP Éducation"
@@ -150,7 +159,7 @@ const IndexPage = () => (
     <section id="contacts" className={mainStyles.contactSection}>
       <h2>CONTACTEZ NOUS</h2>
       <div className={mainStyles.form}>
-        <iframe title="contact" src="https://docs.google.com/forms/d/e/1FAIpQLSc1weXFtKXOFwNxNweKWp9LXexw4GQwKNlSFiNYE64QsMEITg/viewform?embedded=true" width="500" height="1031" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        <iframe title="contact" src="https://docs.google.com/forms/d/e/1FAIpQLSdDqIodrUoHr1YT6b8fZdMpjnIPVHc_mOA8P0rgG-3c_C9I_w/viewform?embedded=true" width="500" height="1031" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
       </div>
     </section>
   </Layout>

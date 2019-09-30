@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:700|Montserrat:400,700&display=swap');
 
 $green: #759F42;
 $paleGreen: #FAF9E9;
@@ -93,7 +93,18 @@ h4 {
 .logoWeekend {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin: 50px 0;
+    text-align: center;
+    @media (max-width: 1000px) {
+        display: block;
+    }
+}
+
+.weekendTitle {
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.7em;
+    margin: 50px 50px;
 }
 
 .weekendPresentationText {
@@ -188,7 +199,7 @@ h4 {
     }
 }
 
-.runningPhoto {
+.video {
     text-align: center;
     height: 400px;
     margin-bottom: 50px;
