@@ -72,8 +72,8 @@ const IndexPage = () => (
             <p>Léonie, c’est la vieille tante toute douce qui sommeille dans le cœur de chaque famille : celle qui a un chat, qui fait des confitures, et qui possède un grenier plein de trésors. Un week-end chez la tante Léonie, c’est la promesse des week-end à la campagne de notre enfance, à jouer dehors, bâtir des mondes imaginaires et savourer de bons produits frais entouré d’enfants de son âge.</p>
             <p>Tous les mois, le lieu et les activités changent, mais l’esprit reste le même.</p>
             <div className={mainStyles.box}>
-              <p className={mainStyles.nextWeekend}>Prochain week-end les 11, 12 et 13 octobre</p>
-              <p>Il reste quelques places !</p>
+              <p className={mainStyles.nextWeekend}>Les prochains week-ends auront lieu en 2020 !</p>
+              {/* <p>Il reste quelques places !</p> */}
             </div>
           </div>
         </div>
