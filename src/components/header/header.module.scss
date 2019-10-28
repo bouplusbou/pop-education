@@ -10,7 +10,6 @@ $paleYellow: #FFFBD4;
     background-color: white;
     display: flex;
     align-items: center;
-
 }
 
 .logo {
@@ -39,6 +38,7 @@ $paleYellow: #FFFBD4;
             padding: 0 30px;
             display: flex;
             align-items: center;
+            text-align: center;
             &:hover {
                 background-color: $paleYellow;
             }
@@ -47,8 +47,5 @@ $paleYellow: #FFFBD4;
     a {
         text-decoration: none;
         color: $green;
-        // &:hover {
-        //     color: $green;
-        // }
     }
 }

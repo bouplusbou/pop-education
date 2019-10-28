@@ -5,7 +5,7 @@ $paleGreen: #FAF9E9;
 $paleYellow: #FFFBD4;
 
 p {
-    hyphens: auto;
+    text-align: justify;
 }
 
 .cover {
@@ -37,6 +37,16 @@ h4 {
     display: inline-block;
     padding: 10px 20px;
     text-align: center;
+    box-shadow: 12px 12px 15px 1px rgba(0, 0, 0, .3);
+}
+
+.contactLink {
+    color: $green;
+    background-color: $paleYellow;
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    box-shadow: 12px 12px 15px 1px rgba(0, 0, 0, .3);
 }
 
 .valuesSection {
@@ -119,7 +129,6 @@ h4 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 50px;
-    hyphens: auto;
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 60px;
@@ -151,7 +160,6 @@ h4 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 50px;
-    hyphens: auto;
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 60px;

@@ -127,7 +127,7 @@ const IndexPage = () => (
         <p>Vous souhaitez organiser un séjour de vacances pour les enfants des salariés de l’entreprise ?</p>
         <h4>Vous travaillez dans une collectivité ?</h4>
         <p>Vous souhaitez organiser un séjour de vacances pour les enfants de votre commune ?</p>
-        <p><a href="#contacts">Contactez-nous !</a></p>
+        <h4><a href="#contacts">Contactez-nous !</a></h4>
         <p>Nous créons votre séjour éco-responsable sur mesure.</p>
       </div>
     </section>
@@ -156,7 +156,7 @@ const IndexPage = () => (
         <p>La confiance est très précieuse et c’est un lien qui doit unir les différents acteurs de l’aventure POP. Parents, enfants, prestataires et équipes POP doivent oeuvrent à ce que ce lien grandisse chaque jour. Lorsque vos enfants sont avec nous, nous sommes disponibles 24h/24 et 7 jours sur 7.</p>
       </div>
     </section>
-    <section id="contacts" className={mainStyles.contactSection}>
+    <section id="contacts">
       <h2>CONTACTEZ NOUS</h2>
       <div className={mainStyles.form}>
         <iframe title="contact" src="https://docs.google.com/forms/d/e/1FAIpQLSdDqIodrUoHr1YT6b8fZdMpjnIPVHc_mOA8P0rgG-3c_C9I_w/viewform?embedded=true" width="500" height="1031" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
